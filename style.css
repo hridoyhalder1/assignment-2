@@ -82,6 +82,9 @@ body {
     }
 }
 @media screen and (min-width: 688px) and (max-width:992px) {
+    .top-banner {
+        padding: 30px;
+    }
     .banner-content h1 {
         font-size: 25px;
     }
@@ -157,6 +160,19 @@ body {
     border: 1px solid lightgray;
     border-radius: 10px;
 }
+.flag-info {
+    padding: 30px;
+}
+.flag-img{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flag-content {
+    text-align: center;
+}
 .cards-content {
     padding: 20px;
 }
@@ -173,6 +189,7 @@ body {
 .cards-content span {
     margin-right: 20px;
 }
+
 
 @media screen and (max-width: 688px) {
     .blog {
@@ -211,6 +228,7 @@ body {
     }
     .cards {
         grid-template-columns: repeat(2,1fr);
+        margin-top: -100px;
     }
     .cards-info img {
         width: 100%;
