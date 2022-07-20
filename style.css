@@ -39,6 +39,10 @@ body {
     background-color: red;
     padding: 16px 25px;
     color: #fff;
+    transition: transform 0.5s;
+}
+.banner-content a:hover {
+    transform: skew(0.9);
 }
 .banner-content img {
     width: 581px;
@@ -241,6 +245,18 @@ hr {
 .footer-menu a {
     text-decoration: none;
     color: #fff;
+}
+.social-icon {
+    padding-top: 40px;
+    text-align: center;
+}
+.social-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+.fa-brands {
+    padding-right: 15px;
+    font-size: 25px;
 }
 
 /*==============responsive============*/
