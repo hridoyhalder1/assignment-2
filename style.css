@@ -155,6 +155,19 @@ body {
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+.cards-btn {
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 200px;
+    display: none;
+}
+.cards-btn a {
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
 .cards-info {
     /* box-shadow: 5px 7px 7px gray; */
     border: 1px solid lightgray;
@@ -218,6 +231,12 @@ body {
         flex-direction: row;
         background:none;
         
+     }
+     #cards {
+        display: none;
+     }
+     .cards-btn {
+        display:block;
      }
      .cards-button {
         flex-direction: row;
